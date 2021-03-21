@@ -1,0 +1,108 @@
+﻿body {
+    background-color: rgb(29, 31, 33);
+    color: white;
+    height: 300vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.circle {
+    background-color: #fff;
+    border: 1px solid red;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+}
+
+#paragraph-title {
+    color: lightblue;
+    font-size: 40px;
+}
+
+#about-me {
+    position: relative;
+    width: 540px;
+    height: 234px;
+    margin: 50px;
+    font-family: 'Arial Rounded MT';
+    /*
+    border-color: white;
+    border: solid;
+    */
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 320px;
+    padding: 14px;
+}
+
+    #about-me:hover, #my-experience:hover, #what-do-i-study:hover {
+        background-color: #23272a;
+    }
+
+#what-do-i-study {
+    position: absolute;
+    width: 540px;
+    height: 320px;
+    top: 178px;
+    font-family: 'Arial Rounded MT';
+    /*border-color: white;
+    border: solid;
+        */
+    font-size: 24px;
+    text-align: left;
+    margin-left: 1000px;
+    padding: 14px;
+}
+
+#my-experience {
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    height: 500px;
+    margin: 50px;
+    font-family: 'Arial Rounded MT';
+    /* border-color: white;
+    border: solid;
+        */
+    top: 540px;
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: left;
+    padding: 14px;
+}
+
+.header {
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.fa-location-arrow:hover {
+    color: darkorange !important;
+}
+
+.fa-school:hover {
+    color: darkorange !important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    color: #656666;
+    bottom: 30px;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+
+

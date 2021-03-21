@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PersonalWebsite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Personal Website</title>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/834db34999.js" crossorigin="anonymous"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    <div class ="footer">
+        <a href="https://twitter.com/xYarin1" target="blank_" style="color:white;width:22px;height:25px;text-decoration: none;">
+            <i class="fab fa-twitter" style="color:white;font-size: 32px;" aria-hidden="true"> &nbsp; &nbsp; </i>
+        </a>
+        <a href="https://github.com/Yarin" target="blank_" style="color:white;width:22px;height:25px;text-decoration: none;">
+      <i class="fab fa-github" style="color:white;font-size: 32px;" aria-hidden="true"></i> &nbsp; &nbsp; </a>
+        <br />
+        <p>ירין מינה - מתכנת אתרי אינטרנט רספונסיבים</p>
+    </div>
+    
+</body>
+</html>
