@@ -3,8 +3,8 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <body onload='typeWriter("<%=greeting %>")'>
+    <script src="main.js" type="text/javascript"></script>
+    <body onload='typeWriter("<%=greeting %>", 120);'>
         <div id="header" >
             <!--<a href="#about-me">contact</a>-->
         </div>
@@ -17,9 +17,16 @@
             <i class="fas fa-school" style="font-size: 22px;" aria-hidden="true"> &nbsp; </i> </a>   
         </div>-->
         <div id="about-me">
-            <p id="paragraph-title">Hey, I'm <span style="color:#3477eb;">Yarin.</span></p><br />
+            
+           <p id="paragraph-title">Hey, I'm <span style="color:#3477eb;">Yarin.</span></p><br />
             <span style="color:darkorange;">16</span> year-old <span style="color:darkorange;">Computer Science</span> student
         </div>
+        <div>
+            <button class="button" onclick="location.href = 'register.aspx';">register</button>
+            <button class="button" onclick="location.href = 'register.aspx';">My Projects</button>
+            <button class="button" onclick="location.href = 'register.aspx';">About me</button>
+        </div>
+        <!--
         <div id="what-do-i-study"><p id="paragraph-title">What do I study?</p>
             I study several trends at High School: <br />
             For my main proffesion, I am studying <span style="color: darkorange;">Computer Science. </span><br />
@@ -30,6 +37,6 @@
         <div id="my-experience">
             <p id="paragraph-title">My Programming Experience</p>
             I have been first introduced to programming almost 3 years ago.
-        </div>
+        </div>-->
     </body>
 </asp:Content>

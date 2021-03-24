@@ -8,6 +8,23 @@ html {
     scroll-behavior: smooth;
 }
 
+.button {
+    position: relative;
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    margin: auto;
+    display: inline-flex;
+}
+
+.button:hover {opacity: 1; cursor: pointer}
+
 .circle {
     background-color: #fff;
     border: 1px solid red;
@@ -20,7 +37,7 @@ html {
 
 #paragraph-title {
     color: lightblue;
-    font-size: 42px;
+    font-size: 48px;
 }
 
 #about-me {
@@ -33,7 +50,7 @@ html {
     border: solid;
     */
     margin-top: 10px;
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
     
     padding: 14px;
@@ -73,7 +90,7 @@ html {
 #header {
     margin-top: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
     padding: 20px;
 }
@@ -91,6 +108,8 @@ html {
 .footer {
     position: relative;
     margin-top: 60px;
+    align-content: center;
+    align-items: center;
     left: 0;
     color: #656666;
     bottom: 30px;
@@ -99,7 +118,15 @@ html {
     text-align: center;
 }
 
+.footer-icon {
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s;
+    width: 22px;
+    height: 25px;
+    text-decoration: none;
+}
 
-
+.footer-icon:hover {color: darkorange; opacity: 1}
 
 

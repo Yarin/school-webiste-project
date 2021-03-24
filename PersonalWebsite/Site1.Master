@@ -20,11 +20,22 @@
             </asp:ContentPlaceHolder>
         </div>
     <div class ="footer">
-        <a href="https://twitter.com/xYarin1" target="blank_" style="color:white;width:22px;height:25px;text-decoration: none;">
-            <i class="fab fa-twitter" style="color:white;font-size: 32px;" aria-hidden="true"> &nbsp; &nbsp; </i>
+        <a href="https://twitter.com/xYarin1" target="blank_" class="footer-icon">
+            <i class="fab fa-twitter" style="color:white;font-size: 32px;" aria-hidden="true"></i>
+        </a> &nbsp; &nbsp;
+        <a href="https://github.com/Yarin" target="blank_" class="footer-icon">
+      <i class="fab fa-github" style="color:white;font-size: 32px;" aria-hidden="true"></i>
+
+        </a> &nbsp; &nbsp;
+        <a href="https://discord.com/users/213949213409673216" target="blank_" class="footer-icon">
+            <i class="fab fa-discord" style="color:white;font-size: 32px;" aria-hidden="true"></i>
+        </a> &nbsp; &nbsp;
+        <a href="https://api.whatsapp.com/send/?phone=972523515451&text=%D7%94%D7%99%D7%99.+%D7%94%D7%92%D7%A2%D7%AA%D7%99+%D7%90%D7%9C%D7%99%D7%9A+%D7%93%D7%A8%D7%9A+%D7%94%D7%90%D7%AA%D7%A8+%D7%A9%D7%9C%D7%9A&app_absent=0" target="blank_" class="footer-icon">
+            <i class="fab fa-whatsapp" style="color:white;font-size: 32px;" aria-hidden="true"></i>
+        </a> &nbsp; &nbsp;
+        <a href="https://instagram.com/yarinmina" target="blank_" class="footer-icon">
+            <i class="fab fa-instagram" style="color:white;font-size: 32px;" aria-hidden="true"></i>
         </a>
-        <a href="https://github.com/Yarin" target="blank_" style="color:white;width:22px;height:25px;text-decoration: none;">
-      <i class="fab fa-github" style="color:white;font-size: 32px;" aria-hidden="true"></i> &nbsp; &nbsp; </a>
         <br />
         <p>yarinmina.xyz</p>
     </div>
