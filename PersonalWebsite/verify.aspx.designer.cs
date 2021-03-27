@@ -11,7 +11,7 @@ namespace PersonalWebsite
 {
 
 
-    public partial class register
+    public partial class verify
     {
 
         /// <summary>

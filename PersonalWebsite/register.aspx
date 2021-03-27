@@ -5,7 +5,15 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <body>
         <div>
-            hello there
+            <%=code %>
+        </div>
+        <div>
+            <form id="form" action="register.aspx" runat="server">
+          <label dir="rtl" for="mail" class="form-label" >אימייל:</label><br>
+          <input dir="ltr" type="email" name="mail" class="form-label"><br>
+          <button type="submit" id="form-button" class="form-label">הצטרף</button>
+          
+    </form>
         </div>
     </body>
 </asp:Content>

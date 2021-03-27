@@ -67,19 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutme.aspx" />
     <Content Include="home.aspx" />
     <Content Include="main.js" />
+    <Content Include="projects.aspx" />
     <Content Include="register.aspx" />
     <Content Include="Stylesheet.css" />
+    <Content Include="verify.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutme.aspx.cs">
+      <DependentUpon>aboutme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutme.aspx.designer.cs">
+      <DependentUpon>aboutme.aspx</DependentUpon>
+    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="projects.aspx.cs">
+      <DependentUpon>projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="projects.aspx.designer.cs">
+      <DependentUpon>projects.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="register.aspx.cs">
@@ -95,6 +112,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="verify.aspx.cs">
+      <DependentUpon>verify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="verify.aspx.designer.cs">
+      <DependentUpon>verify.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

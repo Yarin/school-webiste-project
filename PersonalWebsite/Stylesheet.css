@@ -8,20 +8,59 @@ html {
     scroll-behavior: smooth;
 }
 
-.button {
+.buttons-container {
     position: relative;
+    text-align: center;
+    align-self: center;
+    margin-top: 40px;
+    padding: 40px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    border: 1px solid darkorange;
+    position: relative;
+    border-radius: 5px;
     background-color: darkorange;
-    border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 16px;
     opacity: 0.7;
-    transition: 0.3s;
-    margin: auto;
-    display: inline-flex;
+    
+    transition: all 0.3s;
+    
 }
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.3s;
+    }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.3s;
+        }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
 
 .button:hover {opacity: 1; cursor: pointer}
 
@@ -33,6 +72,18 @@ html {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     width: 100px;
+}
+
+.hyperlink {
+    text-decoration: none;
+    color: inherit;
+}
+.hyperlink:hover {color: darkorange;}
+
+#my-projects {
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+    color: white;
 }
 
 #paragraph-title {
@@ -120,7 +171,7 @@ html {
 
 .footer-icon {
     color: white;
-    opacity: 0.7;
+    opacity: 0.6;
     transition: 0.3s;
     width: 22px;
     height: 25px;
