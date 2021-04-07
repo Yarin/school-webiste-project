@@ -11,6 +11,8 @@
             <form id="form" action="register.aspx" runat="server">
           <label dir="rtl" for="mail" class="form-label" >אימייל:</label><br>
           <input dir="ltr" type="email" name="mail" class="form-label"><br>
+           <label dir="rtl" for="name" class="form-label" >שם:</label><br>
+          <input dir="rtl" name="name" class="form-label" /><br />
           <button type="submit" id="form-button" class="form-label">הצטרף</button>
           
     </form>
