@@ -3,15 +3,15 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <body onload='typeWriter("<%=greeting %>", 120);'>
+    <body onload='typeWriter("<%=greeting %> I&apos;m Yarin.", 100);'>
         <div id="header" >
             <!--<a href="#about-me">contact</a>-->
         </div>
         
-        <div id="about-me">
-            
-           <p id="paragraph-title">Hey, I'm <span style="color:#3477eb;">Yarin.</span></p><br />
-            <span style="color:darkorange;">16</span> year-old <span style="color:darkorange;">Computer Science</span> student
+        <div id="homepage" >
+            <p id="paragraph-title"></p><br />
+           <%--<p id="paragraph-title"><%=greeting %>, I'm <span style="color:#3477eb;">Yarin.</span></p><br />--%>
+            <span style="color:#b7dd71">print</span><span style="color:yellow">(</span><span style="color: #a58c4f">"</span><span style="color:darkorange;">16</span> year-old <span style="color:darkorange;">Computer Science</span> student<span style="color: #a58c4f">"</span><span style="color:yellow">)</span>
         </div>
         <div class="buttons-container">
             <button class="button" onclick="location.href = 'register.aspx';"><span>Register</span></button>

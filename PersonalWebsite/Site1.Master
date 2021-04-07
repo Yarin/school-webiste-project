@@ -37,7 +37,7 @@
             <i class="fab fa-instagram" style="color:white;font-size: 32px;" aria-hidden="true"></i>
         </a>
         <br />
-        <p>yarinmina.xyz</p>
+        <p><a href="home.aspx" style="text-decoration: none; color: #656666;">yarin.xyz</a></p>
     </div>
     
 </body>
